@@ -1,0 +1,10 @@
+1001,Maria Eduarda,0,19,87.5
+1002,Ana Clara,1,22,65.0
+1003,Lucas Silva,0,17,91.0
+1004,Bruno Lima,0,30,78.5
+1005,Fernanda Souza,1,25,55.0
+1006,Carlos Henrique,0,40,98.0
+1007,Julia Martins,0,18,73.5
+1008,Rafael Costa,1,27,82.0
+1009,Amanda Oliveira,0,21,88.0
+1010,Gabriel Santos,0,16,49.5
