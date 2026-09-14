@@ -76,7 +76,19 @@ public class Teste {
 
         for(int i=0; i<lista.size()-1; i++){
             for(int j=0; j<lista.size()-1-i; j++){
-                if(lista.get(j).pontos < lista.get(j+1).pontos){
+                if(lista.get(j).pontos == lista.get(j+1).pontos){
+                    if(lista.get(j).idade == lista.get(j+1).idade){
+                        if(lista.get(j).numDepen > lista.get(j+1).numDepen){
+                            Candidatos aux = lista.get(j);
+                            lista.set(j, lista.get(j+1));
+                            lista.set(j+1, aux);
+                        }
+                    }else if(lista.get(j).idade > lista.get(j+1).idade){
+                        Candidatos aux = lista.get(j);
+                        lista.set(j, lista.get(j+1));
+                        lista.set(j+1, aux);
+                    }
+                }else if(lista.get(j).pontos < lista.get(j+1).pontos){
                     Candidatos aux = lista.get(j);
                     lista.set(j, lista.get(j+1));
                     lista.set(j+1, aux);
